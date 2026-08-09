@@ -1,0 +1,36 @@
+:root {
+  /* Color palette */
+  --color-warm-slate: #f8f9fa; /* background */
+  --color-cobalt: #2563eb;   /* primary */
+  --color-coral: #ef4444;    /* danger/urgent */
+  --color-emerald: #10b981;  /* success */
+  --color-dark-bg: #004ac6; /* offline/status bar */
+  --color-text-primary: #191b23;
+  --color-text-muted: #434655;
+  --color-border: #e1e2ed;
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+  --spacing-6: 32px;
+
+  /* Border radius */
+  --radius: 16px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+  --shadow-lg: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Utility classes */
+.bg-warm-slate { background-color: var(--color-warm-slate); }
+.text-primary { color: var(--color-text-primary); }
+.text-muted { color: var(--color-text-muted); }
+.rounded { border-radius: var(--radius); }
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow-md { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
